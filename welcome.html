@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome back</title>
+    <style>
+        body{
+            margin-top: 130px;
+            padding:30px;
+            background-color: #aacaffa8;
+            opacity:0.8;
+        }
+        .firstborder{
+            font-variant:small-caps;
+            border:1px solid #113e10e7;
+            background-color:blueviolet;
+            padding:20px;
+            border-radius:7px;
+            color:#ffffff;
+            box-shadow:5px 20px 80px 1px #000000;
+        }
+        h2{
+            font-size:30px;
+            font-weight:bold;
+            text-shadow:2px 4px 5px #aacaffa8;
+            text-align:center;
+        }
+        label{
+            position:relative;
+            left:70px;
+        }
+        input{
+            border:transparent;
+            border-bottom:3px solid #ffffff;
+            background-color: #113e10e7;
+            margin-top: 10px;
+            color:white;
+            width:230px;
+            border-radius:4px;
+            height:25px;
+            caret-color: red;
+        }
+        button{
+            border:1px solid white;
+            color: white;
+            background-color:#113e10e7;
+            text-align:left;
+            height: 23px;
+            width: 55px;
+            padding-left:13px;
+            border-radius:4px;
+
+        }
+        span{
+            position:relative;
+            left:120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="firstborder">
+        <form action="send/php/" method="post" target="_self">
+            <div>
+                <header>
+                    <h2>Universe Explorer</h2>
+                </header>
+            </div><br>
+            <main>
+                <div>
+                    <section>
+                        <label for="welcome back" class="welcome">
+                        welcome back
+                        </label>
+                    </section>
+                 </div>      
+                      <!-- <div>
+                    <section>
+                        <input type="text" placeholder="name" name="sub name">
+                    </section>
+                </div><br>
+                <div>
+                    <section>
+                        <input type="text" placeholder="email address" name="sub email">
+                    </section>
+                </div><br> --> 
+                <div>
+                    <section>
+                        
+                        <input type="text"  placehoder="username"  name=" sub username" required>
+                    
+                    </section>
+                </div>
+                <div>
+                    <section>
+                        
+                    <input type="text"  placehoder="********" name=" sub password" required>
+                
+                </section>
+                </div>
+                <br>
+                <select>
+                    <option>
+                    <lable>COUNTRY</lable>
+                </option>
+                    <option>CANADA</option>
+                    <option>UK</option>
+                    <option>AMERICA</option>
+                    <option>CHINA</option>
+                    <option>INDIA</option>
+                    <option>NIGERIA</option>
+                    <option>HONG KONG</option>
+                </select>
+                <br>
+                <br>
+                <div>
+                    <footer>
+                        <button type="submit" value="login">
+                        Login
+                        </button>
+                        <span>Forgot?</span>
+                    </footer>
+                </div>
+                
+               
+            </main>
+
+        </form>
+
+    </div>
+</body>
+</html>
